@@ -15,7 +15,7 @@ jobs:
   # ─────────────────────────────────────────────
   backend-test:
     name: Backend Tests (Newman API)
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest 
 
     services:
       postgres:
